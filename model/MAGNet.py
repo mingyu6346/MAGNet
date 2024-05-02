@@ -427,15 +427,3 @@ class DWPWConv(nn.Module):
 
     def forward(self, x):
         return self.conv(x)
-
-
-if __name__ == "__main__":
-    x = torch.randn(1, 120, 14, 14)
-    d = torch.randn(1, 3, 224, 224)
-
-    model = MAGNet()
-    #
-
-    output = model(d, d)
-    print(output.shape)
-    print(sum(p.numel() for p in model.parameters() if p.requires_grad) / 1e6, "M")

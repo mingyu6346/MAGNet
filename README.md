@@ -49,7 +49,6 @@ We provide the saliency maps of VT821, VT1000, VT5000 datasets.
 # Trained Models
 
 - RGB-D [baidu](https://pan.baidu.com/s/1RPMA5Z3liMoUlG0AWuGeRA?pwd=5aqf) / [Google drive](https://drive.google.com/file/d/1vb2Vcbz9bCjvaSwoRZjIi39ae5Ei1GVs/view?usp=sharing) <br>
-- RGB-T baidu / Google drive <br>
 
 # Acknowledgement
 

@@ -1,7 +1,5 @@
 # README.md
 
-# MAGNet
-
 This project provides the code and results for 'MAGNet: Multi-scale Awareness and Global Fusion Network for RGB-D Salient Object Detection'<br>
 
 # Environments

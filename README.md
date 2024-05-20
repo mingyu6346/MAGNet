@@ -57,7 +57,7 @@ The implement of this project is based on the codebases bellow. <br>
 - [SeaNet](https://github.com/MathLee/SeaNet) <br>
 - [LSNet](https://github.com/zyrant/LSNet) <br>
 - Fps/speed test [MobileSal](https://github.com/yuhuan-wu/MobileSal/blob/master/speed_test.py)
-- Evaluate tools [CODToolbox](https://github.com/DengPingFan/CODToolbox) / [PySODMetrics](https://github.com/lartpang/PySODMetrics)<br>
+- Evaluate tools [CODToolbox](https://github.com/DengPingFan/CODToolbox) / [SOD_Evaluation_Metrics](https://github.com/zyjwuyan/SOD_Evaluation_Metrics)<br>
 
 # Contact
 

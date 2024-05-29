@@ -25,10 +25,10 @@ Note that the depth maps of the raw data above are foreground is white.
 
 - Train the MAGNet:
     1. download the pretrained SMT pth from [baidu](https://pan.baidu.com/s/11bNtCS7HyjnB7Lf3RIbpFg?pwd=bxiw) / [Google drive](https://drive.google.com/file/d/1eNhQwUHmfjR-vVGY38D_dFYUOqD_pw-H/view?usp=sharing), and put it under  `ckps/smt/`.
-    2. modify the `rgb_root` `depth_root` `gt_root` `save_path` path in `train_Net.py` according to your own data path.
+    2. modify the `rgb_root` `depth_root` `gt_root` `save_path` in `train_Net.py` according to your own data path.
     3. run `python train_Net.py`
 - Test the MAGNet:
-    1. modify the `test_path` path in `test_Net.py` according to your own data path.
+    1. modify the `test_path` `pth_path` in `test_Net.py` according to your own data path.
     2. run `python test_Net.py`
 
 # Evaluate tools

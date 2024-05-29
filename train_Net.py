@@ -16,7 +16,7 @@ os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 parser = argparse.ArgumentParser()
 parser.add_argument('--epoch', type=int, default=200, help='epoch number')
 parser.add_argument('--lr', type=float, default=5e-5, help='learning rate')
-parser.add_argument('--batchsize', type=int, default=1, help='training batch size')
+parser.add_argument('--batchsize', type=int, default=8, help='training batch size')
 parser.add_argument('--trainsize', type=int, default=384, help='training image size')
 parser.add_argument('--continue_train', type=bool, default=False, help='continue training')
 parser.add_argument('--continue_train_path', type=str, default='', help='continue training path')
@@ -28,11 +28,11 @@ parser.add_argument('--gt_root', type=str, default='D:/DataSet/SOD/RGB-D SOD/tra
                     help='the training gt images root')
 
 parser.add_argument('--val_rgb', type=str, default="D:/DataSet/SOD/RGB-D SOD/test_data/NLPR/RGB/",
-                    help='validate')
+                    help='validate rgb path')
 parser.add_argument('--val_depth', type=str, default="D:/DataSet/SOD/RGB-D SOD/test_data/NLPR/depth/",
-                    help='')
+                    help='validate depth path')
 parser.add_argument('--val_gt', type=str, default="D:/DataSet/SOD/RGB-D SOD/test_data/NLPR/GT/",
-                    help='')
+                    help='validate gt path')
 parser.add_argument('--clip', type=float, default=0.5, help='gradient clipping margin')
 parser.add_argument('--decay_rate', type=float, default=0.1, help='decay rate of learning rate')
 parser.add_argument('--decay_epoch', type=int, default=80, help='every n epochs decay learning rate')

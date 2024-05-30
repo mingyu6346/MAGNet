@@ -16,7 +16,7 @@ os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 parser = argparse.ArgumentParser()
 parser.add_argument('--epoch', type=int, default=200, help='epoch number')
 parser.add_argument('--lr', type=float, default=5e-5, help='learning rate')
-parser.add_argument('--batchsize', type=int, default=1, help='training batch size')
+parser.add_argument('--batchsize', type=int, default=8, help='training batch size')
 parser.add_argument('--trainsize', type=int, default=384, help='training image size')
 parser.add_argument('--continue_train', type=bool, default=False, help='continue training')
 parser.add_argument('--continue_train_path', type=str, default='', help='continue training path')

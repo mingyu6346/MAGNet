@@ -16,7 +16,7 @@ conda install yacs
 
 # Data Preparation
 
-- Download the RGB-D raw data from [baidu](https://pan.baidu.com/s/1T5RjFeoxWJZNJUuspn5YuA?pwd=7ttk) / [Google drive](https://drive.google.com/file/d/1MHCI_8UI_A1qKIlagl2Z9hC9iXUa1ZwC/view?usp=sharing) <br>
+- Download the RGB-D raw data from [baidu](https://pan.baidu.com/s/10Y90OXUFoW8yAeRmr5LFnA?pwd=exwj) / [Google drive](https://drive.google.com/file/d/19HXwGJCtz0QdEDsEbH7cJqTBfD-CEXxX/view?usp=sharing) <br>
 - Download the RGB-T raw data from [baidu](https://pan.baidu.com/s/1eexJSI4a2EGoaYcDkt1B9Q?pwd=i7a2) / [Google drive](https://drive.google.com/file/d/1hLhn5WV6xh-Q41upXF-bzyVpbszF9hUc/view?usp=sharing) <br>
 
 Note that the depth maps of the raw data above are foreground is white.

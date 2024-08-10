@@ -41,8 +41,8 @@ for dataset in test_datasets:
         os.makedirs(save_path)
     image_root = dataset_path + dataset + '/RGB/'
     gt_root = dataset_path + dataset + '/GT/'
-    # depth_root = dataset_path + dataset + '/depth/'
-    depth_root = dataset_path + dataset + '/T/'
+    depth_root = dataset_path + dataset + '/depth/'
+    # depth_root = dataset_path + dataset + '/T/'
     test_loader = test_dataset(image_root, gt_root, depth_root, opt.trainsize)
     for i in tqdm(range(test_loader.size), desc=dataset, file=sys.stdout):
         image, gt, depth, name, image_for_post = test_loader.load_data()
